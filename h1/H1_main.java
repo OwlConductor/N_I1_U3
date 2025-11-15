@@ -31,10 +31,10 @@ public class H1_main {
             negativ = false;
             rating+=2;
         }
-        System.out.println("Guthaben : "+ guthaben);
-        System.out.println("Einkommen : " + monEingang);
-        System.out.println("Liquditätsrating : " + rating);
-        System.out.println("Schuldenwarnung : " + warnhinweis);
-        System.out.println("Schulden : " + negativ);
+        //System.out.println("Guthaben : "+ guthaben);
+        //System.out.println("Einkommen : " + monEingang);
+        //System.out.println("Liquditätsrating : " + rating);
+        //System.out.println("Schuldenwarnung : " + warnhinweis);
+        //System.out.println("Schulden : " + negativ);
     }
 }
