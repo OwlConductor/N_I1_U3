@@ -6,8 +6,8 @@ public class H3_main {
         int max = 8;
         int fix = 5;
         int wartend = 2;
-        //System.out.println("\nmax     : "+ max + "\nfix     : "+ fix + "\nwartend : "+ wartend);
+        System.out.println("\nmax     : "+ max + "\nfix     : "+ fix + "\nwartend : "+ wartend);
         boolean istVoll = ((fix = (fix+wartend<=max) ? (fix+wartend + (wartend = 0)) : (max + (wartend = fix + wartend - max) - (wartend)))==max);
-        //System.out.println("\nmax     : "+ max + "\nfix     : "+ fix + "\nwartend : "+ wartend + "\n\nistVoll : "+ istVoll);
+        System.out.println("\nmax     : "+ max + "\nfix     : "+ fix + "\nwartend : "+ wartend + "\n\nistVoll : "+ istVoll);
     }
 }
